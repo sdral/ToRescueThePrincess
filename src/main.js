@@ -1,5 +1,16 @@
 import phaser from "phaser"
 import preloadScene from "./scenes/preloadScene"
+import gameScene from "./scenes/gameScene"
+import gameOver from "./scenes/gameOver"
+import instructions from "./scenes/instructions"
+import instructions2 from "./scenes/instructions2"
+import room1 from "./scenes/room1"
+import room2 from "./scenes/room2"
+import room3 from "./scenes/room3"
+import room4 from "./scenes/room4"
+import scene1 from "./scenes/scene1"
+import scene2 from "./scenes/scene2"
+
 
 
 var config = {
@@ -21,7 +32,7 @@ var config = {
     backgroundColor: '#422835', 
     pixelArt: true,
     //// Add all scenes below in the array
-    scene: [preloadScene]
+    scene: [preloadScene,scene1,scene2,instructions,instructions2,gameScene,room1,room2,room3,room4,gameOver]
     // scene: [preloadScene,scene1,scene2,instructions,instructions2,gameScene,room1,room2,room3,room4,gameOver]
 };
 

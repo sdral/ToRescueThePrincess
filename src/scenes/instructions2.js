@@ -1,4 +1,4 @@
-class instructions2 extends Phaser.Scene {
+export default class instructions2 extends Phaser.Scene {
 
     constructor ()
     {

@@ -1,4 +1,4 @@
-class gameOver extends Phaser.Scene {
+export default class gameOver extends Phaser.Scene {
 
     constructor ()
     {
