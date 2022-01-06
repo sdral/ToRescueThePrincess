@@ -38,6 +38,6 @@ var config = {
 
 export default new Phaser.Game(config);
 
-// window.key= 0
-// window.heart = 3
+window.key= 1
+window.heart = 3
 

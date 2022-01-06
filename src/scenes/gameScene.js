@@ -305,7 +305,7 @@ export default class gameScene extends Phaser.Scene {
       this.player.x < 830 &&
       this.player.y > 855 &&
       this.player.y < 868 &&
-      window.key >= 7
+      window.key >= 1
     ) {
       this.room4();
       this.dooropenSnd.play();
