@@ -65,6 +65,8 @@ export default class scene2 extends Phaser.Scene {
   } // end of preload //
 
   create() {
+
+    this.add.image (320,320,'scene2img')
     //   this.add.sprite(100, 100, "guardleft").play("guardleftAnim").setScale(1);
     //   this.add.sprite(100, 100, "guardright").play("guardleftAnim").setScale(1);
     //   this.add.sprite(100, 100, "guardup").play("guardleftAnim").setScale(1);
