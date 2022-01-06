@@ -62,10 +62,15 @@ export default class scene2 extends Phaser.Scene {
     this.load.audio("win", "assets/win.wav");
     this.load.audio("smallhit", "assets/smallhit.wav");
     this.load.audio("lose", "assets/lose.mp3");
-  } // end of preload //
+  } 
+  
+  
+  // end of preload //
 
   create() {
 
+
+    
     this.add.image (320,320,'scene2img')
     //   this.add.sprite(100, 100, "guardleft").play("guardleftAnim").setScale(1);
     //   this.add.sprite(100, 100, "guardright").play("guardleftAnim").setScale(1);

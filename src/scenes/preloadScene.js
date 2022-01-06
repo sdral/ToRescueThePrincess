@@ -53,6 +53,12 @@ export default class preloadScene extends Phaser.Scene {
       "assets/guard_left_anim.json"
     );
 
+    this.load.atlas(
+      "guardrightanim",
+      "assets/guard_right_anim.png",
+      "assets/guard_right_anim.json"
+    );
+
     this.load.image("introjpg", "assets/intro.jpg");
 
     this.load.audio("ding", "assets/ding.mp3");
@@ -221,6 +227,16 @@ export default class preloadScene extends Phaser.Scene {
       frames: [
         { key: "guardleftanim", frame: "Asset 133" },
         { key: "guardleftanim", frame: "Asset 134" },
+      ],
+      frameRate: 2,
+      repeat: -1,
+    });
+
+    this.anims.create({
+      key: "guardrightanims",
+      frames: [
+        { key: "guardrightanim", frame: "Asset 135" },
+        { key: "guardrightanim", frame: "Asset 136" },
       ],
       frameRate: 2,
       repeat: -1,
