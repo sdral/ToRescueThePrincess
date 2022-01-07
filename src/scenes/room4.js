@@ -172,7 +172,7 @@ export default class room4 extends Phaser.Scene {
 
         const web3 = await Moralis.enableWeb3();
 
-        let user = Moralis.User.current();
+        let user = await Moralis.User.current();
 
         ethAddress = user.get("ethAddress");
         console.log("eth", user.get("ethAddress"))
